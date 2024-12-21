@@ -5,7 +5,7 @@ from typing import List, Dict
 
 class NewsAPI:
     def __init__(self):
-        self.api_key = "a886a96e188e4591bcff3342547fe6eb"  # Ensure this is the correct key
+        self.api_key = "your_api_key_here"  # Ensure this is the correct key
         self.base_url = "https://newsapi.org/v2/"
         self.categories = [
             "business", "entertainment", "general", "health", 
